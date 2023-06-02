@@ -1,0 +1,26 @@
+# Comment
+int X=50, I, A[50]
+float Val = (-13.168), I
+Y = 40 + A[42]
+A[21] = Y + X * 3
+G = 40 / 0
+if (true or false and false):
+    A[22] = 60
+	if (X == 50):
+		A[23] = X + 4
+	else:
+		A[46] = X + 6
+
+
+#partie fonction
+
+import cv2 as CV
+# Ouvrir l'image
+IM = CV.imread('IM.jpg')
+
+# Inverser les couleurs
+INE = 255 - IM
+
+# Enregistrer l'image inversée
+CV.imwrite('Img.jpg',INE)
+
