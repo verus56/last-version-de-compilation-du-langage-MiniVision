@@ -27,9 +27,9 @@ marque la fin du bloc courant.
 
 ## 7 Optimisation 
 On considère quatre types de transformations successives appliquées au code intermédiaire : 
-• Propagation de copie (e.g. remplacer t1=t2 ; t3=4*t1 par t1=t2 ; t3=4*t2). 
-• Propagation d’expression (e.g. remplacer t1=expr; t3=4*t1 par t1=expr; t3=4*expr). 
-• Élimination d’expressions redondantes (communes) (e.g. remplacer t6=4*j ; t12=4*j par 
+• **Propagation de copie** (e.g. remplacer t1=t2 ; t3=4*t1 par t1=t2 ; t3=4*t2). 
+• **Propagation d’expression** (e.g. remplacer t1=expr; t3=4*t1 par t1=expr; t3=4*expr). 
+• **Élimination d’expressions redondantes (communes)** (e.g. remplacer t6=4*j ; t12=4*j par 
 t6=4*j ; t12=t6 ). 
 • Simplification algébrique (e.g. remplacer t1+1-1 par t1). 
 • Élimination de code inutile (code mort
