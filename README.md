@@ -39,4 +39,4 @@ On considère quatre types de transformations successives appliquées au code in
 *   **Élimination de code inutile (code mort)**
 
 ## 8 Génération du code machine 
-Le code machine doit être générer en assembleur 8086.
+Le code machine génére en assembleur 8086.
